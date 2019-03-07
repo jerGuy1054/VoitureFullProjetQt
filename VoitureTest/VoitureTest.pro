@@ -9,7 +9,8 @@ CONFIG += qt
 HEADERS += \
         tst_testvoiture.h \
     tst_testvoitureconstructor.h \
-    tst_testvoitureroule.h
+    tst_testvoitureroule.h \
+    tst_testpilote.h
 
 SOURCES += \
         main.cpp
