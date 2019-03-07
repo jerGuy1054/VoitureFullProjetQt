@@ -106,8 +106,8 @@ TEST_P(TestVoiturerRecentRouler, Range)
 
 INSTANTIATE_TEST_SUITE_P(GroupeVoitureRecent,
                          TestVoiturerRecentRouler,
-                         //Values(0, 10000, 14999, 150000, 150001));
-                         Range (0, 150000, 10000));
+                         Values(0, 10000, 14999, 150000, 150001, 150002));
+                         //Range (0, 150000, 10000));
 
 TEST (TestVoitureRouler, PasAssezEssence)
 {
